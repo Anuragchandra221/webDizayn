@@ -1,0 +1,39 @@
+html{
+    width: 100%;
+    overflow: hidden;
+}
+p{
+    color:#fff;
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+body{
+    height: 100vh;
+    background-image: url('images/bgm-min.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    height: 400px;
+    margin-inline: 100px;
+}
+button{
+    color: #fff;
+    font-size: 41px;
+    font-family: 'Fondamento', cursive;
+    cursor: pointer;
+    align-items: center;
+    height: 86px;
+    width: 306px;
+    border: 1px solid #fff;
+    border-radius: 57px;
+    background-image: linear-gradient(#16003A, #b2aabf ) ;
+}
